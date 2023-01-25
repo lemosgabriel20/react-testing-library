@@ -1,6 +1,5 @@
 import { fireEvent, screen } from '@testing-library/react';
 import renderWithRouter from '../renderWithRouter';
-import { updateFavoritePokemon } from '../services/pokedexService';
 import App from '../App';
 
 test('Teste se as informações detalhadas do Pokémon selecionado são mostradas na tela', () => {
